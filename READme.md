@@ -5,17 +5,17 @@ A Flutter-based application to convert between metric and imperial units for dis
 ---
 ## Features
 
-Convert between meters, kilometers, feet, miles (distance)
+- Convert between meters, kilometers, feet, miles (distance)
 
-Convert between grams, kilograms, pounds, ounces (weight)
+- Convert between grams, kilograms, pounds, ounces (weight)
 
-Dropdown menus for selecting "From" and "To" units
+- Dropdown menus for selecting "From" and "To" units
 
-Input validation to prevent invalid conversions
+- Input validation to prevent invalid conversions
 
-Responsive UI suitable for web and mobile browsers
+- Responsive UI suitable for web and mobile browsers
 
-Clean and readable code with comments following Dart best practices
+- Clean and readable code with comments following Dart best practices
 
 ---
 ## Project Structure
@@ -33,87 +33,87 @@ Clean and readable code with comments following Dart best practices
 ---
 ## Getting Started
 
-These instructions will help you run the app on your machine or phone.
+- These instructions will help you run the app on your machine or phone.
 
 ### Prerequisites
 
-Flutter SDK installed (Flutter installation guide
+- Flutter SDK installed (Flutter installation guide
 )
 
-Dart SDK (included with Flutter)
+- Dart SDK (included with Flutter)
 
-Visual Studio Code or Android Studio
+- Visual Studio Code or Android Studio
 
-Web browser (Chrome/Edge) or Android/iOS device
+- Web browser (Chrome/Edge) or Android/iOS device
 
-Installing Dependencies
+---
+### Installing Dependencies
 
-Open terminal in the project folder:
+- Open terminal in the project folder:
 
-flutter pub get
-
-
-This installs all required packages and dependencies.
-
-Running the App on a Web Browser
-
-Run the app on a local web server:
-
-flutter run -d web-server --web-port=5000 --web-hostname=0.0.0.0
+                  flutter pub get
 
 
-Open a web browser and enter:
+- This installs all required packages and dependencies.
 
-http://<your-PC-IP>:5000
+- Running the App on a Web Browser
+
+- Run the app on a local web server:
+
+                flutter run -d web-server --web-port=5000 --web-hostname=0.0.0.0
 
 
-Replace <your-PC-IP> with your computer’s local IP address.
+- Open a web browser and enter:
 
-Running the App on an Android Device
+                http://<your-PC-IP>:5000
 
-Connect your Android device via USB and enable Developer Mode & USB Debugging.
 
-Check connected devices:
+- Replace <your-PC-IP> with your computer’s local IP address.
 
-flutter devices
+- Running the App on an Android Device
+
+- Connect your Android device via USB and enable Developer Mode & USB Debugging.
+
+- Check connected devices:
+
+                flutter devices
 
 
 ### Run the app:
 
-flutter run -d <device-id>
-
-
-Replace <device-id> with your device’s ID from the previous command.
+                flutter run -d <device-id>
+                Replace <device-id> with your device’s ID from the previous command.
 
 ### Using the App
 
-Enter a numeric value in the Value field.
+- Enter a numeric value in the Value field.
 
-Select the unit to convert From and To using the dropdowns.
+- Select the unit to convert From and To using the dropdowns.
 
-Press Convert.
+- Press Convert.
 
-The result will appear below the button.
+- The result will appear below the button.
 
-Coding Best Practices Followed
+### Coding Best Practices Followed
 
-Clear and meaningful variable names
+- Clear and meaningful variable names
 
-Proper comments explaining logic and UI components
+- Proper comments explaining logic and UI components
 
-Input validation to prevent errors
+- Input validation to prevent errors
 
-Separation of UI and logic inside a StatefulWidget
+- Separation of UI and logic inside a StatefulWidget
 
-Consistent formatting according to Effective Dart
+- Consistent formatting according to Effective Dart
 
+---
+## More Features
 
-## Notes
+- The app works for both distance and weight units only
 
-The app works for both distance and weight units only
+- Invalid or incompatible conversions (e.g., meters → pounds) will show an error message
 
-Invalid or incompatible conversions (e.g., meters → pounds) will show an error message
+- Compatible with web, Android, and iOS platforms
 
-Compatible with web, Android, and iOS platforms
 
 ---
